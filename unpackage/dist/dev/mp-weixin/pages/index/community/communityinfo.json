@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "社群内容",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uv-navbar": "../../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-tabs": "../../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-input": "../../../uni_modules/uv-input/components/uv-input/uv-input",
+    "uv-safe-bottom": "../../../uni_modules/uv-safe-bottom/components/uv-safe-bottom/uv-safe-bottom"
+  }
+}

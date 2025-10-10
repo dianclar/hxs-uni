@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "心性复盘",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uv-navbar": "../../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-status-bar": "../../../uni_modules/uv-status-bar/components/uv-status-bar/uv-status-bar",
+    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-safe-bottom": "../../../uni_modules/uv-safe-bottom/components/uv-safe-bottom/uv-safe-bottom"
+  }
+}

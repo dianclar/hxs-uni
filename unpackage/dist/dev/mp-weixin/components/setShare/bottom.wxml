@@ -1,0 +1,1 @@
+<view class="bottom data-v-2e33a6f2"><view class="double data-v-2e33a6f2"><view class="leftbutton data-v-2e33a6f2"> AI一键生成 </view><view class="rightbutton data-v-2e33a6f2" bindtap="{{a}}"> 生成海报 </view></view><uv-safe-bottom class="data-v-2e33a6f2" u-i="2e33a6f2-0" bind:__l="__l"></uv-safe-bottom></view>

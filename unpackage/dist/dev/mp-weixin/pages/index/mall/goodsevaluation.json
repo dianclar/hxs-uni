@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商品评价",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uv-navbar": "../../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-badge": "../../../uni_modules/uv-badge/components/uv-badge/uv-badge",
+    "uv-rate": "../../../uni_modules/uv-rate/components/uv-rate/uv-rate",
+    "uv-number-box": "../../../uni_modules/uv-number-box/components/uv-number-box/uv-number-box",
+    "uv-popup": "../../../uni_modules/uv-popup/components/uv-popup/uv-popup"
+  }
+}

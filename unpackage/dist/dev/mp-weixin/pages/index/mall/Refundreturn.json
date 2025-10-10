@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "退货退款",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uv-navbar": "../../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-status-bar": "../../../uni_modules/uv-status-bar/components/uv-status-bar/uv-status-bar",
+    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-upload": "../../../uni_modules/uv-upload/components/uv-upload/uv-upload",
+    "uv-safe-bottom": "../../../uni_modules/uv-safe-bottom/components/uv-safe-bottom/uv-safe-bottom",
+    "uv-overlay": "../../../uni_modules/uv-overlay/components/uv-overlay/uv-overlay"
+  }
+}

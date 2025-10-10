@@ -1,0 +1,237 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background: #f0f0f0;
+}
+.goodsinfo {
+  display: flex;
+  justify-content: space-between;
+  gap: 24rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  margin: 20rpx 30rpx;
+  padding: 30rpx;
+}
+.goodsinfo image {
+  width: 180rpx;
+  height: 180rpx;
+  background: #E0E0E0;
+  border-radius: 10rpx;
+  flex-shrink: 0;
+}
+.goodsinfo .goodsinforight {
+  display: flex;
+  flex-direction: column;
+  gap: 15rpx;
+  flex: 1;
+  width: 0;
+}
+.goodsinfo .goodsinforight .goodsinforighttitlt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: PingFang SC;
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 40rpx;
+}
+.goodsinfo .goodsinforight .goodsinforightsubtitle {
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 24rpx;
+  color: #848791;
+}
+.goodsinfo .goodsinforight .goodsinforightprice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.goodsinfo .goodsinforight .goodsinforightprice .goodsinforightpriceleft {
+  font-family: PingFang SC;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #D02835;
+  line-height: 28rpx;
+}
+.goodsinfo .goodsinforight .goodsinforightprice .goodsinforightpriceright {
+  font-family: PingFang SC;
+  font-weight: bold;
+  font-size: 26rpx;
+  color: #848791;
+}
+.goodsinfo .goodsinforight .goodsinforightguarantee {
+  border-radius: 6rpx;
+  border: 2px solid #D02835;
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 18rpx;
+  color: #D02835;
+  padding: 5rpx 10rpx;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+.form {
+  margin: 20rpx 30rpx;
+  padding: 1rpx 30rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+}
+.form .formitem {
+  display: flex;
+  gap: 15rpx;
+  justify-content: space-between;
+  align-items: center;
+  margin: 39rpx 0;
+}
+.form .formitem .formitemleft {
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #111111;
+  line-height: 28rpx;
+}
+.form .formitem .formitemchoice {
+  display: flex;
+  gap: 15rpx;
+  align-items: center;
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #848791;
+  line-height: 28rpx;
+}
+.form .formitem .formiteminput {
+  flex: 1;
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #848791;
+  line-height: 28rpx;
+}
+.form .formitem .price {
+  color: #d02835;
+}
+.upimg {
+  margin: 20rpx 30rpx;
+  padding: 30rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+}
+.upimg .upimgtitle {
+  margin-bottom: 30rpx;
+}
+.upimg .upimgdata {
+  width: 142rpx;
+  height: 142rpx;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+  border: 2px dashed #949393;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  background: #FFFFFF;
+  box-shadow: 0rpx -1rpx 8rpx 0rpx rgba(169, 169, 169, 0.3);
+  width: 100%;
+}
+.bottom .bottombutton {
+  height: 80rpx;
+  margin: 20rpx 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0D7CFF;
+  border-radius: 16rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  line-height: 28rpx;
+}
+.aftersalesservice {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30rpx 0;
+  width: 630rpx;
+  background: #FFFFFF;
+  border-radius: 28rpx;
+}
+.aftersalesservice .aftersalesservicetitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #111111;
+  line-height: 28rpx;
+}
+.aftersalesservice .aftersalesservicehr {
+  height: 2rpx;
+  background: #EFEFEF;
+  border-radius: 1rpx;
+  margin: 30rpx 0;
+}
+.aftersalesservice .aftersalesserviceinfo {
+  background: #F4F6F8;
+  border-radius: 16rpx;
+  padding: 35rpx 30rpx;
+  margin: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #92969E;
+  line-height: 28rpx;
+}
+.aftersalesservice .aftersalesserviceinfo .aftersalesserviceinfoaction {
+  font-weight: bold;
+  color: #0D7CFF;
+}
+.aftersalesservice .aftersalesservicebutton {
+  height: 80rpx;
+  margin: 0 30rpx;
+  background: #0D7CFF;
+  border-radius: 16rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PingFang SC;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  line-height: 28rpx;
+}

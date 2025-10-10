@@ -1,0 +1,227 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabs/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/tabs/courseing",
+			"style": {
+				"navigationBarTitleText": "课程",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/event",
+			"style": {
+				"navigationBarTitleText": "活动",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/moments",
+			"style": {
+				"navigationBarTitleText": "耕心圈",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/mall/mall",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path" : "pages/index/mall/goods",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品详情",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path" : "pages/index/mall/goodsevaluation",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品评价",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/area/addarea",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新增收货地址",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/mall/shoppingcart",
+			"style" : 
+			{
+				"navigationBarTitleText" : "购物车",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/mall/confirmorder",
+			"style" : 
+			{
+				"navigationBarTitleText" : "确认订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/completed/ordercompleted",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单完成",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/mall/mallorder",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商城订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/mall/OrderDetails",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/mall/Refundreturn",
+			"style" : 
+			{
+				"navigationBarTitleText" : "退货退款",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/mall/Returndetails",
+			"style" : 
+			{
+				"navigationBarTitleText" : "退货详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/customerservice/customerservice",
+			"style" : 
+			{
+				"navigationBarTitleText" : "客服",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path" : "pages/index/clockin/MindsetReview",
+			"style" : 
+			{
+				"navigationBarTitleText" : "心性复盘",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/community/HuaxueSociety",
+			"style" : 
+			{
+				"navigationBarTitleText" : "华学社",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path" : "pages/index/clockin/newclockin",
+			"style" : 
+			{
+				"navigationBarTitleText" : "创建打卡",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/clockin/setShare",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分享编辑",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/community/communityinfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "社群内容",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path" : "pages/index/community/Newtask",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新建任务",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"selectedColor": "#0D7CFF", // 选中字体颜色（关键参数）
+		"list": [
+			{
+				"pagePath": "pages/tabs/index",
+				"text": "首页",
+				"iconPath": "static/tabs/Icon_hxs_shouye_01.png",  // 图标路径
+				"selectedIconPath": "static/tabs/Icon_hxs_shouye_02.png"  // 选中状态图标
+			},
+			{
+				"pagePath": "pages/tabs/courseing",
+				"text": "课程",
+				"iconPath": "/static/tabs/Icon_hxs_kecheng_01.png",  // 图标路径
+				"selectedIconPath": "/static/tabs/Icon_hxs_kecheng_02.png"  // 选中状态图标
+			},{
+				"pagePath": "pages/tabs/event",
+				"text": "活动",
+				"iconPath": "/static/tabs/Icon_hxs_huodong_01.png",  // 图标路径
+				"selectedIconPath": "/static/tabs/Icon_hxs_huodong_02.png"  // 选中状态图标
+			},{
+				"pagePath": "pages/tabs/moments",
+				"text": "耕心圈",
+				"iconPath": "/static/tabs/Icon_hxs_gengxinquan_01.png",  // 图标路径
+				"selectedIconPath": "/static/tabs/Icon_hxs_gengxinquan_02.png"  // 选中状态图标
+			},{
+				"pagePath": "pages/tabs/mine",
+				"text": "我的",
+				"iconPath": "/static/tabs/Icon_hxs_wode_01.png",  // 图标路径
+				"selectedIconPath": "/static/tabs/Icon_hxs_wode_02.png"  // 选中状态图标
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

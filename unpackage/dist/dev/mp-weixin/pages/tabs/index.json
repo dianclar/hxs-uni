@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uv-icon": "../../uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-safe-bottom": "../../uni_modules/uv-safe-bottom/components/uv-safe-bottom/uv-safe-bottom",
+    "uv-overlay": "../../uni_modules/uv-overlay/components/uv-overlay/uv-overlay"
+  }
+}

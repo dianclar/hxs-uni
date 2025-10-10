@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单完成",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uv-navbar": "../../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-status-bar": "../../../uni_modules/uv-status-bar/components/uv-status-bar/uv-status-bar"
+  }
+}

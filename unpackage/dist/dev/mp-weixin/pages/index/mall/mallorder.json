@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商城订单",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uv-navbar": "../../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-status-bar": "../../../uni_modules/uv-status-bar/components/uv-status-bar/uv-status-bar"
+  }
+}

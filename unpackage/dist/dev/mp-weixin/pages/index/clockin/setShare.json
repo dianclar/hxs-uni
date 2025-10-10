@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "分享编辑",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "plate": "../../../components/setShare/plate",
+    "fileimg": "../../../components/setShare/fileimg",
+    "quotation": "../../../components/setShare/quotation",
+    "manifesto": "../../../components/setShare/manifesto",
+    "bottom": "../../../components/setShare/bottom",
+    "generate": "../../../components/setShare/generate",
+    "uv-navbar": "../../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar"
+  }
+}

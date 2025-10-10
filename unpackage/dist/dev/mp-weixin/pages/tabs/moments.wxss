@@ -1,0 +1,5 @@
+
+.head{
+	height: 538rpx;
+	background: #0D7CFF;
+}
