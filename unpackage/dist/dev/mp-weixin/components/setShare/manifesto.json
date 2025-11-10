@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "uv-textarea": "../../uni_modules/uv-textarea/components/uv-textarea/uv-textarea"
-  }
-}

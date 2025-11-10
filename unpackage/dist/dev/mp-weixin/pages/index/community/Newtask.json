@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "新建任务",
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "bottombutton": "../../../components/bottombutton",
-    "uv-navbar": "../../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
-    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon"
-  }
-}

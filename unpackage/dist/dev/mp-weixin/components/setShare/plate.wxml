@@ -1,1 +1,0 @@
-<view class="dad data-v-93fc79dd"><view class="left data-v-93fc79dd"><text class="data-v-93fc79dd">主题板块 </text><text class="red data-v-93fc79dd">*</text></view><view class="right data-v-93fc79dd"><view class="data-v-93fc79dd">请选择或输入</view><uv-icon wx:if="{{a}}" class="data-v-93fc79dd" u-i="93fc79dd-0" bind:__l="__l" u-p="{{a}}"></uv-icon></view></view>

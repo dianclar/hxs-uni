@@ -1,8 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "poster1": "../poster/poster1",
-    "uv-navbar": "../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
-    "uv-overlay": "../../uni_modules/uv-overlay/components/uv-overlay/uv-overlay"
-  }
-}

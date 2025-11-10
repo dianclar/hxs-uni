@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "商城",
-  "navigationStyle": "custom",
-  "navigationBarTextStyle": "white",
-  "usingComponents": {
-    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon",
-    "uv-tabs": "../../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs"
-  }
-}

@@ -1,1 +1,0 @@
-<view class="data-v-241a3bf4"><view class="bottom data-v-241a3bf4"><view class="bottombutton data-v-241a3bf4" bindtap="{{b}}">{{a}}</view><uv-safe-bottom class="data-v-241a3bf4" u-i="241a3bf4-0" bind:__l="__l"></uv-safe-bottom></view></view>

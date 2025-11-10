@@ -1,1 +1,0 @@
-<view class="page"><uv-navbar wx:if="{{a}}" u-i="6131d8aa-0" bind:__l="__l" u-p="{{a}}"></uv-navbar><uv-status-bar u-i="6131d8aa-1" bind:__l="__l"></uv-status-bar><view><image src="{{b}}" mode=""></image></view><view class="title">{{c}}</view><view class="info">{{d}}</view><view class="button"><view class="order">{{e}}</view><view class="mall">{{f}}</view></view></view>
